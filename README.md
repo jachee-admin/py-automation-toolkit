@@ -15,7 +15,7 @@ uv venv || python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 pytool --help
-pytool hello --name John
+pytool hello --name username
 pytool http:get https://httpbin.org/get
 pytest -q
 ```
